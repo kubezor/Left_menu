@@ -1,0 +1,374 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.n {
+  text-decoration: none;
+  color: #000;
+}
+
+header {
+  background-color: gray;
+  height: 177px;
+  font-size: 0.8em;
+  margin-left: 0px;
+  margin-right: 0px;
+  min-width: 900px;
+}
+
+.main, .logo, .menubar, .site_contener, .footer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  width: 880px;
+  padding-bottom: 40px;
+}
+
+h1, h2 {
+  font: normal 300% 'century gothic', arial, sans-serif;
+  margin: 0 0 0 9px;
+}
+
+.logo_text {
+  padding: 22px 0 0 0;
+  color: #000000;
+  letter-spacing: 0.1em;
+  color: #000;
+  -webkit-text-decoration: nonecolor;
+          text-decoration: nonecolor;
+  text-decoration: none;
+  padding: 22px 0 0 0;
+  letter-spacing: 0.1em;
+}
+
+.logo_text:hover {
+  padding: 22px 0 0 0;
+  color: #000000;
+  letter-spacing: 0.1em;
+}
+
+h2 {
+  font-size: 0.9em;
+  padding: 4px 0 0 0;
+  color: red;
+}
+
+.menubar {
+  width: 1300px;
+  height: 35px;
+  background-color: gray;
+}
+
+ul.menu {
+  float: century;
+}
+
+li {
+  float: left;
+  padding: 0 0 0 20px;
+  list-style: none;
+  margin: 1px 2px 0 0;
+}
+
+li a {
+  font: normal 100% 'century gothic', arial, sans-serif;
+  display: block;
+  height: 30px;
+  padding: 6px 35px 5px 28px;
+}
+
+li.selected a {
+  color: black;
+}
+
+li a:hover {
+  color: white;
+}
+
+.dropbtn {
+  background-color: #3e4a52;
+  color: white;
+  padding: 16px 160px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #464353;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  min-width: 160px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.info-tabcontent {
+  display: block;
+  color: black;
+  padding: 0px 25px;
+  text-decoration: none;
+}
+
+
+.dropdown-content-img {
+  display: block;
+  max-width: 430px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+  margin: century;
+}
+
+/* --------------- */
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.panel {
+  margin-bottom: 5px;
+}
+.panel-title {
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  color: #333;
+  border-radius: 4px;
+  font-family: 'Helvetica';
+  font-weight: 300;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.panel-body {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  display: none;
+  margin-bottom: 10px;
+  background: #fff;
+}
+.panel-active {
+  margin-bottom: 0;
+  border-bottom: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  text-decoration: underline;
+}
+.active {
+  display: block;
+}
+.box-description{
+  margin: 0px auto;
+}
+.box-description .title, .box .box-meaning{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.box-description .box-meaning{
+  font-size: 22px;
+}
+.box-meaning {
+  display: block;
+  padding: 15px 0px 15px ;
+}
+
+/*---------------------------------------*/
+.accordion-menu {
+  width: 100%;
+  max-width: 350px;
+  margin: 60px auto 20px;
+  background: #fff;
+  border-radius: 4px;
+}
+.accordion-menu li.open .dropdownlink {
+  color: #CDDC39;
+}
+.accordion-menu li.open .dropdownlink .fa-chevron-down {
+  transform: rotate(180deg);
+}
+.accordion-menu li:last-child .dropdownlink {
+  border-bottom: 0;
+}
+.dropdownlink {
+  cursor: pointer;
+  display: block;
+  padding: 15px 15px 15px 45px;
+  font-size: 18px;
+  border-bottom: 1px solid #ccc;
+  color: #212121;
+  position: relative;
+  transition: all 0.4s ease-out;
+}
+.dropdownlink i {
+  position: absolute;
+  top: 17px;
+  left: 16px;
+}
+.dropdownlink .fa-chevron-down {
+  right: 12px;
+  left: auto;
+}
+.submenuItems {
+  display: none;
+  background: #C8E6C9;
+}
+.submenuItems li {
+  border-bottom: 1px solid #B6B6B6;
+}
+.submenuItems a {
+  display: block;
+  color: #727272;
+  padding: 12px 12px 12px 45px;
+  transition: all 0.4s ease-out;
+}
+.submenuItems a:hover {
+  background-color: #CDDC39;
+  color: #fff;
+}
+
+/* ----------------------------- */
+
+@keyframes axis {
+  0% {left: 0px;}
+  10% {left: 20px;}
+  100% {left: -50px;
+        opacity: 0;}
+}
+@keyframes axis_1 {
+  100% {transform: rotate(180deg);
+        opacity: .5;}
+}
+.axis_non_1 {
+}
+.axis_non {
+}
+.axis_1 {
+  -webkit-animation: axis_1 0.5s ; 
+}
+.axis {
+  -webkit-animation: axis 0.5s ; 
+}
+.axis_1_r {
+  -webkit-animation: axis_1 0.5s ;
+  animation-direction: reverse;  
+}
+.axis_r {
+  -webkit-animation: axis 0.5s ; 
+  animation-direction: reverse; 
+}
+.axis_END_1 {
+  transform: rotate(180deg);
+  opacity: .45;
+}
+.axis_END {
+  opacity: 0;
+}
+
+.block_left_menu {
+  position: fixed;
+  left: 0px;
+  top: 20%;
+}
+.bg_lm {
+  background: blue;
+  border: 1px solid #333;
+  width: 55px;
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+}
+.pass{
+  margin: 5px;
+}
+.left_menu_img {
+  margin: 5px 0 5px 0;
+}
+.bg_lm1 {
+  text-align: center;
+  background: gray;
+  border: 1px solid #333;
+  width: 55px;
+}
+.bg_lm2 {
+  text-align: center;
+  background: gray;
+  border: 1px solid #333;
+  width: 55px;
+  position: relative;
+    animation-delay: 500ms;
+}
+.bg_lm3 {
+  text-align: center;
+  background: gray;
+  border: 1px solid #333;
+  width: 55px;
+  position: relative;
+    animation-delay: 400ms;
+}
+.bg_lm4 {
+  text-align: center;
+  background: gray;
+  border: 1px solid #333;
+  width: 55px;
+  position: relative;
+    animation-delay: 300ms;
+}
+.bg_lm5 {
+  text-align: center;
+  background: gray;
+  border: 1px solid #333;
+  width: 55px;
+  position: relative;
+    animation-delay: 200ms;
+}
+.bg_lm6 {
+  text-align: center;
+  background: gray;
+  border: 1px solid #333;
+  width: 55px;
+  position: relative;
+    animation-delay: 100ms;
+}
+.bg_lm7 {
+  text-align: center;
+  background: red;
+  border: 1px solid #333;
+  width: 55px;
+  height: 40px;
+  font-size: 150%;
+  color: black;
+}
+.bg_lm8 {
+  text-align: center;
+  background: black;
+  color: white; 
+  border: 1px solid #333;
+  width: 55px;
+  height: 40px;
+  font-size: 150%;
+}
+/*# sourceMappingURL=style.css.map */

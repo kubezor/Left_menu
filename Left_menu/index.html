@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fntkmt</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="/bootstrap-reboot.min.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="header">
+                <div class="logo">
+                    <div class="logo_text">
+                        <h1><a class="n" href="#">Вёрстка сайта html и css</a></h1>
+                        <h2>Даниил Матвеев</h2>
+                    </div>
+                </div>
+                <div class="menubar">
+                    <ul class="menu">
+                        <li><a a class="n" href="index.html">Что я умею</a></li>
+                        <li><a class="n" href="Examples.html">Примеры сайтов созданных мной</a></li>
+                        <li><a class="n" href="JavaScript.html">Работы с JavaScript</a></li>
+                        <li><a class="n" href="PHP.html">Работа с PHP</a></li>
+                        <li><a class="n" href="My-contacts.html">Мои контакты</a></li>
+                    </ul>
+                </div>
+                <div class="What-I-can-do">
+                    <div class="">
+                        <div class="conteiner">
+                            <div class="row">
+                                <div class="col-1">
+                                    <div class='block_left_menu'>
+                                        <!--    <div class='left_menu bg_lm'><p id='pass' class='pass'></p></div> -->
+                                        <div class='left_menu bg_lm1 axis_non_1'><a href='#'><img class="left_menu_img" src='img/collapse-L.png' width="32" height="32" title='Свернуть'></a></div> <!-- Hide the left menu in !! revision !! -->
+                                        <div class='left_menu bg_lm_f'>
+                                        <div class='left_menu bg_lm2 axis_non'><a href='{% url 'ip_pelican:ip_pelican' %}'><img class="left_menu_img" src='{% static "img/pelican.svg" %}' width="32" height="32" title='IP Пеликан'></a></div>
+                                        <div class='left_menu bg_lm3 axis_non'><a href='http://support.neo63.ru/scp/' target="_blank"><img class="left_menu_img" src='{% static "img/technical-support.svg" %}' width="32" height="32" title='ТехПоддержка'></a></div>
+                                        <div class='left_menu bg_lm4 axis_non'><a href='{% url 'ip_pelican:jabber' %}'><img class="left_menu_img"  src='{% static "img/star.svg" %}' width="32" height="32" title='Jabber'></a></div>
+                                        <div class='left_menu bg_lm5 axis_non'><a href='http://forum.neo63.ru/' target="_blank"><img class="left_menu_img" src='{% static "img/forum.svg" %}' width="32" height="32" title='Форум'></a></div>
+                                        <div class='left_menu bg_lm6 axis_non'><a href='https://neo63.ru/zapravka' target="_blank"><img class="left_menu_img" src='{% static "img/printer_neo.svg" %}' width="32" height="32" title='Заправка картриджей'></a></div>
+                                        <div class='left_menu bg_lm7 axis_non'><a href='https://neo63.ru/zapravka' target="_blank"><img class="left_menu_img" src='{% static "img/printer_neo.svg" %}' width="32" height="32" title='Заправка картриджей'></a></div>
+                                        <div class='left_menu bg_lm8 axis_non'><a href='https://neo63.ru/zapravka' target="_blank"><img class="left_menu_img" src='{% static "img/printer_neo.svg" %}' width="32" height="32" title='Заправка картриджей'></a></div>
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="box-description">
+                                        <div class="box-meaning">
+                                            Свой сайт — это ваша реальная возможность забрать своих клиентов в интернете. Недорого, просто и понятно.Сайт поможет общятся с клиентами прикладовая минимум усилий с вашей стороны.
+                                        </div>
+                                        <div class="box-meaning">
+                                            Я сосвоей стороны создам инструмент для вашего бизнеса.И смогу администриравать ваш сайт править неполатки и баги.
+                                        </div>
+                                        <div class="box-meaning">
+                                            На этом сайте вы можете увидеть примеры моей работы и найти мои контакты.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="container">
+                                        <div class="panel-group">
+                                            <h3 class="panel-title">Картинка</h3>
+                                                <div class="panel-body">
+                                                    <a href="#"><img src="img/76333 — копия.gif" alt=""></a>
+                                                </div>
+                                            <h3 class="panel-title">И ещё картинка</h3>
+                                                <div class="panel-body">
+                                                    <a  href="#"><img src="img/tenor.gif"alt=""></a>
+                                                </div>
+                                            <h3 class="panel-title">Видео</h3>
+                                                <div class="panel-body">
+                                                    <a href="#"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/mJsScBrrO-A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
+                                                </div>
+                                            <h3 class="panel-title">Карта</h3>
+                                                <div class="panel-body">
+                                                    <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/240/togliatti/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Тольятти</a><a href="https://yandex.ru/maps/240/togliatti/catalog/?ll=49.419207%2C53.508816&pt=49.419207%2C53.508816&source=entity_search&utm_medium=mapframe&utm_source=maps&z=11" style="color:#eee;font-size:12px;position:absolute;top:14px;">33 824 организации Тольятти — Яндекс.Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUY6SWxgC" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+                                                </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="What-I-can-do">
+                    <div class="conteiner">
+                        <div class="row">
+                            <div class="col-2">
+                            </div>
+                            <div class="col-5">
+                            </div> 
+                            <div class="col-2">
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/script.js"></script>
+        <script src="script_1.js"></script>
+    </body>
+</html>
